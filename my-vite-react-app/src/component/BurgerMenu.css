@@ -1,0 +1,126 @@
+.burger-menu {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.explore-title {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.category-btn {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.category-btn img.category-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.category-btn.active {
+  background: #ee0b0b;
+  color: white;
+  border: none;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-tabs button {
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.filter-tabs .active {
+  background: #db0a0a;
+  color: white;
+}
+
+.burger-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.burger-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.burger-card .burger-image {
+  max-width: 100px;
+}
+
+.burger-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 14px;
+  color: #333;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+  justify-content: left;
+}
+
+.rating {
+  font-size: 14px;
+  margin: 5px 0;
+  justify-items: left;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.wishlist, .order-now {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.wishlist {
+  background: #ddd;
+}
+
+.order-now {
+  background: #f82307;
+  color: white;
+}
