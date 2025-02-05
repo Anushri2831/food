@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 900px;
   margin: auto;
-  font-family: Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .explore-title {
@@ -64,7 +64,7 @@
 .burger-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 15px;
+  gap: 19px;
 }
 
 .burger-card {
@@ -124,3 +124,4 @@
   background: #f82307;
   color: white;
 }
+
